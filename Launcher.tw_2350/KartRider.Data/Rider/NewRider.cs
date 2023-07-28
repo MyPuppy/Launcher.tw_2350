@@ -769,7 +769,7 @@ namespace RiderData
                     oPacket.WriteShort(11);
                     oPacket.WriteShort(i);
                     oPacket.WriteShort(0);
-                    oPacket.WriteShort(NewRider.Value1);
+                    oPacket.WriteShort(NewRider.Value2);
                     oPacket.WriteByte((byte)((Program.PreventItem ? 1 : 0)));
                     oPacket.WriteByte(0);
                     oPacket.WriteShort(-1);
@@ -810,7 +810,7 @@ namespace RiderData
                         oPacket.WriteShort(11);
                         oPacket.WriteShort(i);
                         oPacket.WriteShort(0);
-                        oPacket.WriteShort(NewRider.Value1);
+                        oPacket.WriteShort(NewRider.Value2);
                         oPacket.WriteByte((byte)((Program.PreventItem ? 1 : 0)));
                         oPacket.WriteByte(0);
                         oPacket.WriteShort(-1);
